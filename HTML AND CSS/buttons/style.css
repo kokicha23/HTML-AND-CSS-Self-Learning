@@ -1,0 +1,37 @@
+body{
+    font-family: "proxima-nova","Helvetica Neue",Helvetica, Arial, sans-serif;
+    background-color: #FFFCFF;
+}
+
+nav{
+    background-color:#EDDDD4;
+    width: 200px;
+    border: 1px solid red;
+    line-height: 20px;
+}
+#navigationBar{
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+}
+
+.shopping{
+    background-color: green;
+    color: lightcyan;
+    width: 90px;
+    height: 30px;
+   padding: 0.1px;
+  }
+.info{
+    background-color: blue;
+    color: white;
+    width: 60px;
+    height: 30px;
+}
+.delete{
+    background-color:red;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+

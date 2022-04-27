@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form examples 123</h1>
+
+    <form action="" method="get" class="form">
+        <label >
+            First Name
+            <input type="text" required="true" placeholder="Konstantin">
+        </label>
+        <label>
+            Last Name
+            <input type="text" required="true" placeholder="Marinov">
+        </label> 
+        <label>
+            Occupation
+            <input type="text" required="true" placeholder="Tvurdica">
+        </label>
+        <label>
+            Age
+            <input type="text" required="true" placeholder="21">
+        </label>
+        <div> 
+            <select name="size" id="size">
+
+              <option value="39">39 BGN</option>
+              <option value="40">40 BGN</option>
+              <option value="41">41 BGN</option>
+
+            </select>
+        </div> 
+         <label for="message">Send us message</label>
+        <textarea name="" id="message" cols="30" rows="10"></textarea>
+        
+        <div>
+            <span>Gender</span>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
