@@ -1,0 +1,13 @@
+ol { 
+    display: flex;
+    flex-direction: column-reverse;
+}
+ol>li{
+    color: red;
+}
+
+#wrapper{
+background-color: rgb(88, 85, 85);
+width: 300px;
+border: 1px solid black;
+}

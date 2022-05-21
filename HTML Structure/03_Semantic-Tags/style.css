@@ -1,0 +1,26 @@
+body{
+    
+    padding: 15px;
+    background-color: rgb(210, 210, 114);
+}
+
+header{
+    width: 450px;
+    background-color: goldenrod;
+    padding: 5px 15px;
+}
+
+h1:nth-child(2){
+  font-size: 25px;
+}
+
+main{
+    width: 450px;
+}
+
+footer{
+    background-color: goldenrod;
+    width: 450px;
+    padding: 5px 15px;
+    
+}
